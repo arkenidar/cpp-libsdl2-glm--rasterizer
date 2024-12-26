@@ -1,0 +1,43 @@
+# Cube with normals
+# Vertices
+v -0.5 -0.5 -0.5
+v  0.5 -0.5 -0.5
+v  0.5  0.5 -0.5
+v -0.5  0.5 -0.5
+v -0.5 -0.5  0.5
+v  0.5 -0.5  0.5
+v  0.5  0.5  0.5
+v -0.5  0.5  0.5
+
+# Vertex Normals
+vn  0.0  0.0 -1.0  # Front
+vn  0.0  0.0  1.0  # Back
+vn  0.0  1.0  0.0  # Top
+vn  0.0 -1.0  0.0  # Bottom
+vn  1.0  0.0  0.0  # Right
+vn -1.0  0.0  0.0  # Left
+
+# Faces (vertex/texture/normal)
+# Front face
+f 1//1 2//1 3//1
+f 1//1 3//1 4//1
+
+# Back face
+f 5//2 7//2 6//2
+f 5//2 8//2 7//2
+
+# Top face
+f 4//3 3//3 7//3
+f 4//3 7//3 8//3
+
+# Bottom face
+f 1//4 5//4 2//4
+f 2//4 5//4 6//4
+
+# Right face
+f 2//5 6//5 3//5
+f 3//5 6//5 7//5
+
+# Left face
+f 1//6 4//6 8//6
+f 1//6 8//6 5//6
