@@ -7,7 +7,8 @@
       "name": "windows: Launch Rasterizer",
       "program": "${workspaceFolder}/rasterizer.exe",
       "args": [
-        "test-cube.obj"
+        // "test-cube.obj"
+        "blender-bunny.obj"
       ],
       "preLaunchTask": "build",
       "stopAtEntry": false,
@@ -38,7 +39,8 @@
       "name": "linux: Launch Rasterizer",
       "program": "${workspaceFolder}/rasterizer",
       "args": [
-        "test-cube.obj"
+        // "test-cube.obj"
+        "blender-bunny.obj"
       ],
       "preLaunchTask": "build",
       "stopAtEntry": false,
